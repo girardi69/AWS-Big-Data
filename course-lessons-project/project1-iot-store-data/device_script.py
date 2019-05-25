@@ -17,8 +17,8 @@ BROKER_PATH = "a2j1bxgczfkiaf-ats.iot.us-east-1.amazonaws.com"
 # RSA 2048 bit key: Amazon Root CA 1 found here:
 # https://docs.aws.amazon.com/iot/latest/developerguide/managing-device-certs.html
 ROOT_CA_PATH = './AmazonRootCA1.pem'
-PRIVATE_KEY_PATH = './14e764a6a2-private.pem.key'
-CERTIFICATE_PATH = './14e764a6a2-certificate.pem.crt'
+PRIVATE_KEY_PATH = './326bd30940-private.pem.key'
+CERTIFICATE_PATH = './326bd30940-certificate.pem.crt'
 
 IoTclient = AWSIoTMQTTClient(CLIENT_NAME)
 IoTclient.configureEndpoint(BROKER_PATH, 8883)

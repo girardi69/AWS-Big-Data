@@ -33,7 +33,7 @@ IoTclient.configureCredentials(
 IoTclient.configureOfflinePublishQueueing(-1)
 
 # Number of messages to send after a connection returns
-IoTclient.configureDrainingFrequency(2)  # 2 requests/second
+IoTclient.configureDrainingFrequency(1)  # 1 requests/second
 
 # How long to wait for a [dis]connection to complete (in seconds)
 IoTclient.configureConnectDisconnectTimeout(10)

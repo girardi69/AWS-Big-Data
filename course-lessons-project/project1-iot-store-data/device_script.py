@@ -19,7 +19,7 @@ BROKER_PATH = "a2j1bxgczfkiaf-ats.iot.us-east-1.amazonaws.com"
 # change with certificates downloaded
 ROOT_CA_PATH = './AmazonRootCA1.pem'
 PRIVATE_KEY_PATH = './326bd30940-private.pem.key'
-CERTIFICATE_PATH = './326bd30940-public.pem.crt'
+CERTIFICATE_PATH = './326bd30940-public.pem.key'
 
 IoTclient = AWSIoTMQTTClient(CLIENT_NAME)
 IoTclient.configureEndpoint(BROKER_PATH, 8883)

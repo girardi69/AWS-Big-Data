@@ -8,7 +8,7 @@ from time import sleep
 from datetime import date, datetime
 
 
-CLIENT_NAME = "store-thermometer-seattle1"
+CLIENT_NAME = "store-sensor-seattle1"
 TOPIC = "SeattleStoreTemp/1"
 
 # Broker path is under AWS IoT > Settings (at the bottom left)

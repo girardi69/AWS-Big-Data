@@ -1,4 +1,4 @@
-1. S3 FOLDERS
+1. S3 Essentials
 2. Configure and Launch a EMR cluster
 3. Securing an EMR Cluster
 4. Working with Pyspark

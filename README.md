@@ -1,6 +1,6 @@
 # content-aws-bigdata-cert
 
-Check The Repo AWS-Samples on Github  
+Check The Repo AWS-Samples on Github https://github.com/aws-samples  
 
 1. First lesson is about the AWS IoT and Amazon Kinesis Firehose, used as a store-and forward mechanism to input data on S3. 
 2. In the second Lesson, DynamoDB patterns are used

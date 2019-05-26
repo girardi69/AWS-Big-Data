@@ -1,3 +1,8 @@
+# S3 FOLDERS
+# Configure and Launch a EMR cluster
+# Securing an EMR Cluster
+# Working with Pyspark
+
 ## Create an AWS EMR Cluster
 
 1. Navigate to the EMR portion of the AWS console

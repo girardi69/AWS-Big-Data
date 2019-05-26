@@ -40,6 +40,6 @@ pubDailyPaymentsFlat = publisherDailyPayments.map(toJSONLine)
 
 # Collect all the data into a single file (not usually what you'd do)
 pubDailyPaymentsFlat.coalesce(1).toDF().write.save(
-    "s3://penguin-outfitters-adpubdata/adPubResultsjson", 
+    "s3://penguin-outfitters-adpubdatawise01/adPubResultsjson", 
     format="json"
 )

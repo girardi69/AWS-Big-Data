@@ -1,3 +1,10 @@
+1. IoT Thing Registry
+2. IoT Authentication and Authorization
+3. IoT Message Broker
+4. Kinesis Data Firehose
+5. Kinesis Data Firehose Destinations and creating an example
+
+
 # IoT Data Project
 
 ## Creating Things, Certificates, and Policies

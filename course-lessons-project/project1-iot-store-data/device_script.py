@@ -57,16 +57,16 @@ with open('seattle-weather.csv', newline='') as csvfile:
             data[i]=data[i].replace('\n','')
             i=i+1
         payload = json.dumps({
-            "station": data[0],
-            "name": data[1] + ',' + data[2],
+            "VIN": data[0],
+            "USER": data[1] + ',' + data[2],
             "latitude": data[3],
             "longitude": data[4],
-            "elevation": data[5],
+            "MODEL": data[5],
             "date_measured": data[6],
-            "precipitation": data[7],
-            "snowfall": data[8],
-            "snow_depth": data[9],
-            "average_temperature": data[10],
+            "TIRE01": data[7],
+            "TIRE02": data[8],
+            "TIRE03": data[9],
+            "TIRE04": data[10],
             "max_temperature": data[11],
             "min_temperature": data[12]
         })

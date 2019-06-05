@@ -5,6 +5,11 @@ pip install virtualenvwrapper-win
 mkvirtualenv venv  
 setprojectdir .  
 pip install AWSIoTPythonSDK  
+  
+Subsctibe to mqtt  
+AWS IoT -- Test  
+Topic: SeattleStoreTemp/1  
+
 python sqdf_script.py  
   
   

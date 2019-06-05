@@ -1,3 +1,14 @@
+pip install
+python -m pip install --upgrade pip
+mkvirtualenv venv
+pip install virtualenvwrapper-win
+mkvirtualenv venv
+setprojectdir .
+pip install AWSIoTPythonSDK
+python sqdf_script.py
+
+
+
 1. IoT Thing Registry
 2. IoT Authentication and Authorization
 3. IoT Message Broker
